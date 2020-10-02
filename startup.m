@@ -1,0 +1,1 @@
+clc, disp('Work Hard, Live Long, and Prosper') 
