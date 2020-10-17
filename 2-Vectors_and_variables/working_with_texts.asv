@@ -27,37 +27,22 @@ newtext = [ sampletext(1:targ_namestart_index-1) 'Linus'  sampletext(targ_namest
            'Linux' sampletext(targ_osstart_index+length(targos):end)]
        
 %%
-% 
-% str = lower(input('Enter String or word : ', 's'));
-% b= '';
-% l = length(str);
-% for i=1:l
-%     b = strcat(b,str(l));
-%     l = l-1;
-% end
-% 
-% if b == str
-%     fprintf('This is a palindrome')
-% else
-%     fprintf('Not a palindrome')
-% end
 
-
-function res = palinCheck(str)
-    str = lower(str)
-    b= '';
-    l = length(str);
-    for i=1:l
-        b = strcat(b,str(l));
-        l = l-1;
-    end
-    
-    if b == str
-        res = true
-    else
-        res = false
-    end
-    
+str = lower(input('Enter String or word : ', 's'));
+b= '';
+l = length(str);
+for i=1:l
+    b = strcat(b,str(l));
+    l = l-1;
 end
 
+if b == str
+    fprintf('This is a palindrome')
+else
+    fprintf('Not a palindrome')
+end
+
+function res = palindromeCheck(str)
+
+end
 
