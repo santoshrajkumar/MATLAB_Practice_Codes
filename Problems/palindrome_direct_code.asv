@@ -1,4 +1,0 @@
-%%
-
-input_str = input('Enter string or number to check if it is palindrome :');
-reve

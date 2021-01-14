@@ -1,4 +1,4 @@
-%%
+%% This is direct runnable code, palinCheck.m is a function
 
 input_str = lower(input('Enter string or number to check if it is palindrome :', 's'));
 reversed_str = '';
